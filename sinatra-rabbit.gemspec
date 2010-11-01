@@ -20,7 +20,7 @@ require 'rake'
 
 Gem::Specification.new do |s|
   s.author = 'Red Hat, Inc.'
-  s.homepage = "http://incubator.apache.org/deltacloud"
+  s.homepage = "http://github.com/mifo/sinatra-rabbit"
   s.email = 'deltacloud-dev@incubator.apache.org'
   s.name = 'sinatra-rabbit'
 
@@ -29,7 +29,7 @@ Gem::Specification.new do |s|
     a simple REST API using easy to undestand DSL.
   EOF
 
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   s.date = Time.now
   s.summary = %q{Sinatra REST API DSL}
   s.files = FileList[

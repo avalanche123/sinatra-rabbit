@@ -14,8 +14,6 @@
 
 require 'rack/accept'
 
-puts "Loading repond_to"
-
 module Sinatra
 
   module RespondTo
